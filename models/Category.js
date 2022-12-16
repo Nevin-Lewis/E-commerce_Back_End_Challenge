@@ -1,24 +1,21 @@
 const { Model, DataTypes } = require('sequelize');
-
-const sequelize = require('../config/connection.js');
+const sequelize = require('../config/connection');
 const { all } = require('../routes/api/tag-routes.js');
 
 class Category extends Model {}
 
 Category.init(
   {
-   Id: {
+   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
     autoIncrement: true,
     allowNull: false,
-   } 
-  },
-  {
-  Category_names: {
+   },
+  category_name: {
     type: DataTypes.STRING,
     allowNull: false
-  }
+  },
 },
   {
     sequelize,
