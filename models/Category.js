@@ -1,6 +1,5 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-const { all } = require('../routes/api/tag-routes.js');
 
 class Category extends Model {}
 
@@ -12,7 +11,7 @@ Category.init(
     autoIncrement: true,
     allowNull: false,
    },
-  category_name: {
+ category_name: {
     type: DataTypes.STRING,
     allowNull: false
   },
