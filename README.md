@@ -77,7 +77,8 @@ To run tess, run the following command:
 N/A
 ```
 
-[Walkthrough_video.webm](https://user-images.githubusercontent.com/64855834/208587424-6141f60f-5c49-41e6-a3d7-621d5f8aebcb.webm)
+[Untitled_ Jan 2 2023 7_30 AM.webm](https://user-images.githubusercontent.com/64855834/210238464-bc20e26d-6c3f-47e4-a3b2-19e2b0266b19.webm)
+
 
 
 ## Questions
